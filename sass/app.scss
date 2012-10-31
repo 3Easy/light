@@ -27,8 +27,7 @@
 	$white: #ffffff;
 	$title: #999999;
 	
-body, 
-.black {
+body, .black {
 	background: $black;
 }
 
@@ -44,13 +43,11 @@ body,
 
 /* Layout */
 
-.js #nav, 
-.js #content {
+.js #nav, .js #content {
 	display: none;
 }
 
-.no-js #nav, 
-.no-js #content {
+.no-js #nav, .no-js #content {
 	display: block;
 }
 
@@ -138,8 +135,7 @@ a {
 	}
 }
 
-p.more, p.less,
-p.slip, p.slide {
+p.more, p.less, p.slip, p.slide {
 	color: $white;
 	&:hover {
 		cursor: pointer;
@@ -307,6 +303,7 @@ p.slip, p.slide {
 }
 
 /* Contact */
+
 .contact .row {
 	padding-top: 30px;
 }
@@ -329,7 +326,8 @@ p.slip, p.slide {
 /* Reveal Modal */
 
 .modal {
-	.ss-icon {
+	position: relative;
+	.expand {
 		font-size: 2rem;
 		color: $greylight;
 		float: right;
@@ -338,28 +336,34 @@ p.slip, p.slide {
 		@include transition-timing-function(linear);
 	}
 	&:hover {
-		.ss-icon {
+		.expand {
 			color: $white;
+			text-decoration: none;
 		}
 	}
 }
 
 .reveal-modal {
-	background: transparent;
-	@include box-shadow(inherit);
+	background: $black;
+	background: rgba(0, 0, 0, .8);
+	@include border-radius(10px);
 }
 
-.reveal-modal-bg {
-	background: rgb(0, 0, 0);
-	background: rgba($black, .75);
-}
-
-.close-reveal-modal.ss-icon {
-	color: $white;
-	@include text-shadow(none);
+.reveal-modal .close-reveal-modal {
+	color: $greylight;
+	@include text-shadow(inherit);
+	position: absolute;
+	top: 18px;
+	right: 11px;
 	&:hover {
+		color: $white;
 		text-decoration: none;
 	}
+}
+
+.moar .modal {
+	padding-top: 100px;
+	display: block;
 }
 
 /* LightCloud Animation */
