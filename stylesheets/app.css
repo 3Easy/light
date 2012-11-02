@@ -4325,7 +4325,7 @@ blockquote, blockquote p {
   border: none;
   padding-top: 0;
   font-family: 'Droid Serif', serif;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 /* line 133, ../sass/app.scss */
 blockquote .ss-icon, blockquote p .ss-icon {
