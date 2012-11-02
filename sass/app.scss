@@ -335,12 +335,18 @@ p.more, p.less, p.slip, p.slide {
 		@include transition-property(all);
 		@include transition-duration(.25s);
 		@include transition-timing-function(linear);
+		.lt-ie9 & {
+			font-size: 20px;
+		}
 	}
 	&:hover {
 		.expand {
 			color: $white;
 			text-decoration: none;
 		}
+	}
+	img {
+		border-style: none;
 	}
 }
 
