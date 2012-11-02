@@ -4641,7 +4641,7 @@ p.more a:hover, p.less a:hover, p.slip a:hover, p.slide a:hover {
 }
 
 /* line 372, ../sass/app.scss */
-.moar .modal {
+.moar img {
   padding-top: 100px;
   display: block;
 }
