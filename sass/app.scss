@@ -23,6 +23,7 @@
 	$greylight: #777777;
 	$greydark: #4a4a4a;
 	$greydeep: #0d0d0d;
+	$greyborder: #333333;
 	$black: #000000;
 	$white: #ffffff;
 	$title: #999999;
@@ -346,6 +347,7 @@ p.more, p.less, p.slip, p.slide {
 .reveal-modal {
 	background: $black;
 	background: rgba(0, 0, 0, .8);
+	border: 3px solid $greyborder;
 	@include border-radius(10px);
 }
 
