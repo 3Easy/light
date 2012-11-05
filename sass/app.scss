@@ -130,9 +130,16 @@ blockquote, blockquote p {
 	padding-top: 0;
 	font-family: 'Droid Serif', serif;
 	font-size: 1.8rem;
+	.lt-ie9 & {
+		font-size: 18px;
+	}
 	.ss-icon {
 		color: $white;
 	}
+}
+
+#quotes .orbit-slide {
+	opacity: 0;
 }
 
 /* Links */

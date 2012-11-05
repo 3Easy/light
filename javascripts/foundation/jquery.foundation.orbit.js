@@ -487,7 +487,9 @@
         //fade
         if (this.options.animation == "fade") {
           this.$slides
+            .hide()
             .eq(this.activeSlide)
+            .show()
             .css({"opacity" : 0, "z-index" : 3})
             .animate({"opacity" : 1}, this.options.animationSpeed, this.resetAndUnlock);
         }

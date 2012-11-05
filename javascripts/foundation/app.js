@@ -55,6 +55,16 @@
 		directionalNav: false
 	});
 	
+	// Quotes
+	$('#quotes').orbit({
+		fluid: '16x16',
+		animation: 'fade',
+		animationSpeed: 500,
+		timer: true,
+		advanceSpeed: 10000, 
+		directionalNav: false 
+	});
+	
 	// Fixed Nav
 	var productHeight = $('#product').outerHeight();
 	// var navHeight = $('#product').outerHeight();
