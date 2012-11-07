@@ -4468,53 +4468,57 @@ p.more a:hover, p.less a:hover, p.slip a:hover, p.slide a:hover {
 .nav ul li a.current {
   color: white;
 }
+/* line 247, ../sass/app.scss */
+.lt-ie9 .nav {
+  font-size: 15px;
+}
 
-/* line 249, ../sass/app.scss */
+/* line 252, ../sass/app.scss */
 .nav a.ss-icon {
   padding: 17px 10px 10px;
   font-size: 2rem;
 }
 
-/* line 254, ../sass/app.scss */
+/* line 257, ../sass/app.scss */
 .nav.show-for-small {
   min-height: 54px;
 }
-/* line 256, ../sass/app.scss */
+/* line 259, ../sass/app.scss */
 .nav.show-for-small ul.mobi {
   padding: 0 35px;
   display: none;
   text-align: left;
 }
-/* line 260, ../sass/app.scss */
+/* line 263, ../sass/app.scss */
 .nav.show-for-small ul.mobi li {
   float: none;
 }
-/* line 262, ../sass/app.scss */
+/* line 265, ../sass/app.scss */
 .nav.show-for-small ul.mobi li a {
   padding: 0;
   display: block;
 }
-/* line 268, ../sass/app.scss */
+/* line 271, ../sass/app.scss */
 .nav.show-for-small ul.moreorless {
   float: right;
 }
-/* line 270, ../sass/app.scss */
+/* line 273, ../sass/app.scss */
 .nav.show-for-small ul.moreorless .mobiless {
   display: none;
 }
-/* line 274, ../sass/app.scss */
+/* line 277, ../sass/app.scss */
 .nav.show-for-small ul.moreorless li.mobiless,
 .nav.show-for-small ul.moreorless li.mobimore {
   cursor: pointer;
 }
 
 /* Team */
-/* line 282, ../sass/app.scss */
+/* line 285, ../sass/app.scss */
 .team figure {
   min-height: 350px;
   position: relative;
 }
-/* line 285, ../sass/app.scss */
+/* line 288, ../sass/app.scss */
 .team figure img {
   border: none;
   position: absolute;
@@ -4522,7 +4526,7 @@ p.more a:hover, p.less a:hover, p.slip a:hover, p.slide a:hover {
   left: 0;
 }
 
-/* line 293, ../sass/app.scss */
+/* line 296, ../sass/app.scss */
 .team figure img.off {
   opacity: 1;
   -webkit-transition-property: opacity;
@@ -4538,12 +4542,12 @@ p.more a:hover, p.less a:hover, p.slip a:hover, p.slide a:hover {
   -o-transition-timing-function: linear;
   transition-timing-function: linear;
 }
-/* line 298, ../sass/app.scss */
+/* line 301, ../sass/app.scss */
 .team figure img.off:hover {
   opacity: 0;
 }
 
-/* line 303, ../sass/app.scss */
+/* line 306, ../sass/app.scss */
 .team figure img.on {
   opacity: 0;
   -webkit-transition-property: opacity;
@@ -4559,52 +4563,52 @@ p.more a:hover, p.less a:hover, p.slip a:hover, p.slide a:hover {
   -o-transition-timing-function: linear;
   transition-timing-function: linear;
 }
-/* line 308, ../sass/app.scss */
+/* line 311, ../sass/app.scss */
 .team figure img.on:hover {
   opacity: 1;
 }
 
-/* line 315, ../sass/app.scss */
+/* line 318, ../sass/app.scss */
 .team .row:hover figure img.on {
   opacity: 1;
 }
 
-/* line 321, ../sass/app.scss */
+/* line 324, ../sass/app.scss */
 .touch .team figure img {
   opacity: 1;
 }
 
 /* Contact */
-/* line 327, ../sass/app.scss */
+/* line 330, ../sass/app.scss */
 .contact .row {
   padding-top: 30px;
 }
 
-/* line 331, ../sass/app.scss */
+/* line 334, ../sass/app.scss */
 .contact .social span {
   font-size: 4rem;
 }
-/* line 333, ../sass/app.scss */
+/* line 336, ../sass/app.scss */
 .contact .social span a {
   padding: 15px 5px;
   color: #777777;
   float: right;
 }
-/* line 337, ../sass/app.scss */
+/* line 340, ../sass/app.scss */
 .contact .social span a:hover {
   color: white;
 }
-/* line 341, ../sass/app.scss */
+/* line 344, ../sass/app.scss */
 .lt-ie9 .contact .social span {
   font-size: 40px;
 }
 
 /* Reveal Modal */
-/* line 348, ../sass/app.scss */
+/* line 351, ../sass/app.scss */
 .modal {
   position: relative;
 }
-/* line 350, ../sass/app.scss */
+/* line 353, ../sass/app.scss */
 .modal .expand {
   font-size: 2rem;
   color: #777777;
@@ -4622,21 +4626,21 @@ p.more a:hover, p.less a:hover, p.slip a:hover, p.slide a:hover {
   -o-transition-timing-function: linear;
   transition-timing-function: linear;
 }
-/* line 357, ../sass/app.scss */
+/* line 360, ../sass/app.scss */
 .lt-ie9 .modal .expand {
   font-size: 20px;
 }
-/* line 362, ../sass/app.scss */
+/* line 365, ../sass/app.scss */
 .modal:hover .expand {
   color: white;
   text-decoration: none;
 }
-/* line 367, ../sass/app.scss */
+/* line 370, ../sass/app.scss */
 .modal img {
   border-style: none;
 }
 
-/* line 372, ../sass/app.scss */
+/* line 375, ../sass/app.scss */
 .reveal-modal {
   background: black;
   background: rgba(0, 0, 0, 0.8);
@@ -4648,7 +4652,7 @@ p.more a:hover, p.less a:hover, p.slip a:hover, p.slide a:hover {
   border-radius: 10px;
 }
 
-/* line 379, ../sass/app.scss */
+/* line 382, ../sass/app.scss */
 .reveal-modal .close-reveal-modal {
   color: #777777;
   text-shadow: inherit;
@@ -4656,13 +4660,13 @@ p.more a:hover, p.less a:hover, p.slip a:hover, p.slide a:hover {
   top: 18px;
   right: 11px;
 }
-/* line 385, ../sass/app.scss */
+/* line 388, ../sass/app.scss */
 .reveal-modal .close-reveal-modal:hover {
   color: white;
   text-decoration: none;
 }
 
-/* line 391, ../sass/app.scss */
+/* line 394, ../sass/app.scss */
 .moar img {
   padding-top: 100px;
   display: block;
@@ -4670,235 +4674,235 @@ p.more a:hover, p.less a:hover, p.slip a:hover, p.slide a:hover {
 
 /* LightCloud Animation */
 @-webkit-keyframes lightcloud {
-  /* line 399, ../sass/app.scss */
+  /* line 402, ../sass/app.scss */
   0% {
     background: black;
   }
 
-  /* line 402, ../sass/app.scss */
+  /* line 405, ../sass/app.scss */
   12.5% {
     background: lime;
   }
 
-  /* line 405, ../sass/app.scss */
+  /* line 408, ../sass/app.scss */
   25.0% {
     background: yellow;
   }
 
-  /* line 408, ../sass/app.scss */
+  /* line 411, ../sass/app.scss */
   37.5% {
     background: red;
   }
 
-  /* line 411, ../sass/app.scss */
+  /* line 414, ../sass/app.scss */
   50.0% {
     background: magenta;
   }
 
-  /* line 414, ../sass/app.scss */
+  /* line 417, ../sass/app.scss */
   62.5% {
     background: blue;
   }
 
-  /* line 417, ../sass/app.scss */
+  /* line 420, ../sass/app.scss */
   75.0% {
     background: cyan;
   }
 
-  /* line 420, ../sass/app.scss */
+  /* line 423, ../sass/app.scss */
   87.5% {
     background: white;
   }
 
-  /* line 423, ../sass/app.scss */
+  /* line 426, ../sass/app.scss */
   100% {
     background: black;
   }
 }
 
 @-moz-keyframes lightcloud {
-  /* line 429, ../sass/app.scss */
+  /* line 432, ../sass/app.scss */
   0% {
     background: black;
   }
 
-  /* line 432, ../sass/app.scss */
+  /* line 435, ../sass/app.scss */
   12.5% {
     background: lime;
   }
 
-  /* line 435, ../sass/app.scss */
+  /* line 438, ../sass/app.scss */
   25.0% {
     background: yellow;
   }
 
-  /* line 438, ../sass/app.scss */
+  /* line 441, ../sass/app.scss */
   37.5% {
     background: red;
   }
 
-  /* line 441, ../sass/app.scss */
+  /* line 444, ../sass/app.scss */
   50.0% {
     background: magenta;
   }
 
-  /* line 444, ../sass/app.scss */
+  /* line 447, ../sass/app.scss */
   62.5% {
     background: blue;
   }
 
-  /* line 447, ../sass/app.scss */
+  /* line 450, ../sass/app.scss */
   75.0% {
     background: cyan;
   }
 
-  /* line 450, ../sass/app.scss */
+  /* line 453, ../sass/app.scss */
   87.5% {
     background: white;
   }
 
-  /* line 453, ../sass/app.scss */
+  /* line 456, ../sass/app.scss */
   100% {
     background: black;
   }
 }
 
 @-ms-keyframes lightcloud {
-  /* line 459, ../sass/app.scss */
+  /* line 462, ../sass/app.scss */
   0% {
     background: black;
   }
 
-  /* line 462, ../sass/app.scss */
+  /* line 465, ../sass/app.scss */
   12.5% {
     background: lime;
   }
 
-  /* line 465, ../sass/app.scss */
+  /* line 468, ../sass/app.scss */
   25.0% {
     background: yellow;
   }
 
-  /* line 468, ../sass/app.scss */
+  /* line 471, ../sass/app.scss */
   37.5% {
     background: red;
   }
 
-  /* line 471, ../sass/app.scss */
+  /* line 474, ../sass/app.scss */
   50.0% {
     background: magenta;
   }
 
-  /* line 474, ../sass/app.scss */
+  /* line 477, ../sass/app.scss */
   62.5% {
     background: blue;
   }
 
-  /* line 477, ../sass/app.scss */
+  /* line 480, ../sass/app.scss */
   75.0% {
     background: cyan;
   }
 
-  /* line 480, ../sass/app.scss */
+  /* line 483, ../sass/app.scss */
   87.5% {
     background: white;
   }
 
-  /* line 483, ../sass/app.scss */
+  /* line 486, ../sass/app.scss */
   100% {
     background: black;
   }
 }
 
 @-o-keyframes lightcloud {
-  /* line 489, ../sass/app.scss */
+  /* line 492, ../sass/app.scss */
   0% {
     background: black;
   }
 
-  /* line 492, ../sass/app.scss */
+  /* line 495, ../sass/app.scss */
   12.5% {
     background: lime;
   }
 
-  /* line 495, ../sass/app.scss */
+  /* line 498, ../sass/app.scss */
   25.0% {
     background: yellow;
   }
 
-  /* line 498, ../sass/app.scss */
+  /* line 501, ../sass/app.scss */
   37.5% {
     background: red;
   }
 
-  /* line 501, ../sass/app.scss */
+  /* line 504, ../sass/app.scss */
   50.0% {
     background: magenta;
   }
 
-  /* line 504, ../sass/app.scss */
+  /* line 507, ../sass/app.scss */
   62.5% {
     background: blue;
   }
 
-  /* line 507, ../sass/app.scss */
+  /* line 510, ../sass/app.scss */
   75.0% {
     background: cyan;
   }
 
-  /* line 510, ../sass/app.scss */
+  /* line 513, ../sass/app.scss */
   87.5% {
     background: white;
   }
 
-  /* line 513, ../sass/app.scss */
+  /* line 516, ../sass/app.scss */
   100% {
     background: black;
   }
 }
 
 @keyframes lightcloud {
-  /* line 519, ../sass/app.scss */
+  /* line 522, ../sass/app.scss */
   0% {
     background: black;
   }
 
-  /* line 522, ../sass/app.scss */
+  /* line 525, ../sass/app.scss */
   12.5% {
     background: lime;
   }
 
-  /* line 525, ../sass/app.scss */
+  /* line 528, ../sass/app.scss */
   25.0% {
     background: yellow;
   }
 
-  /* line 528, ../sass/app.scss */
+  /* line 531, ../sass/app.scss */
   37.5% {
     background: red;
   }
 
-  /* line 531, ../sass/app.scss */
+  /* line 534, ../sass/app.scss */
   50.0% {
     background: magenta;
   }
 
-  /* line 534, ../sass/app.scss */
+  /* line 537, ../sass/app.scss */
   62.5% {
     background: blue;
   }
 
-  /* line 537, ../sass/app.scss */
+  /* line 540, ../sass/app.scss */
   75.0% {
     background: cyan;
   }
 
-  /* line 540, ../sass/app.scss */
+  /* line 543, ../sass/app.scss */
   87.5% {
     background: white;
   }
 
-  /* line 543, ../sass/app.scss */
+  /* line 546, ../sass/app.scss */
   100% {
     background: black;
   }

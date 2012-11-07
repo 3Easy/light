@@ -244,6 +244,9 @@ p.more, p.less, p.slip, p.slide {
 			}
 		}
 	}
+	.lt-ie9 & {
+		font-size: 15px;
+	}
 }
 
 .nav a.ss-icon {
