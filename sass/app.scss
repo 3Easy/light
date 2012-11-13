@@ -548,4 +548,44 @@ p.more, p.less, p.slip, p.slide {
 	}
 }
 
-/* @3Easy Woz ‘Ere :O) */
+/* Apps GUI */
+
+#apps {
+	background: url(../images/apps/gui.png) no-repeat 50% 0;
+	background-size: 100%;
+	min-height: 1024px;
+}
+
+#apps .row {
+	max-width: 768px;
+}
+
+#apps .column, 
+#apps .columns {
+	padding: 0;
+}
+
+#name {
+	padding: 56px 0 50px;
+}
+
+#apps img.off {
+	opacity: .33;
+}
+
+#control {
+	padding-top: 58px;
+}
+
+#control .light h5 {
+	margin-bottom: 7px;
+	font-size: 15px;
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+}
+
+#control .light h5.on {
+	color: $white;
+}
