@@ -6638,6 +6638,6 @@ p.more a:hover, p.less a:hover, p.slip a:hover, p.slide a:hover {
 }
 
 /* line 589, ../sass/app.scss */
-#control .light h5.on {
+#control .selected h5 {
   color: white;
 }

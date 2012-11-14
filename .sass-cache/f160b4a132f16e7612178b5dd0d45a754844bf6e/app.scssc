@@ -1,5 +1,5 @@
 3.2.1 (Media Mark)
-96646e96efcc7501c0e8b8b934331f45b8948051
+8f84a2f8f6cc8b2a6552890d11a2fd098b837375
 o:Sass::Tree::RootNode
 :
 @linei:@template" /* 
@@ -590,7 +590,7 @@ p.more, p.less, p.slip, p.slide {
 	bottom: 0;
 }
 
-#control .light h5.on {
+#control .selected h5 {
 	color: $white;
 }:@has_childrenT:@options{ :@children[Ro:Sass::Tree::CommentNode
 :
@@ -1445,11 +1445,10 @@ width;iH;	@;.i ;
 [ ;0;1;o;;;;	@;"absoluteo;/;["bottom;iJ;	@;.i ;
 [ ;0;1;o;;;;	@;"0;4["#control .light h5o; ;!o;";#" ;iM;$[o;%;$[o;&
 ;#@o;iM;'o;(;){ ;*0;$[o;<;#@o;["control;iMo;&
-;#@o;iM;'o;(;){ ;*0;$[o;-;#@o;["
-light;iMo;&
-;#@o;iM;'o;(;){ ;*0;$[o;+	;#@o;["h5;iM;,0o;-;#@o;["on;iM;iM;T;	@;.i ;
+;#@o;iM;'o;(;){ ;*0;$[o;-;#@o;["selected;iMo;&
+;#@o;iM;'o;(;){ ;*0;$[o;+	;#@o;["h5;iM;,0;iM;T;	@;.i ;
 [o;/;["
 color;iN;	@;.i ;
 [ ;0;1;o;2	;"
 white;iN;3"
-white;	@;4["#control .light h5.on
+white;	@;4["#control .selected h5

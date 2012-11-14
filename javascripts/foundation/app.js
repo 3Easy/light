@@ -136,7 +136,6 @@
 	    var scrolled = $(window).scrollTop();
 	    $('.lights').css('background-position-y', (0 + (scrolled * .5) + 'px'));
 	}
-    
 	
 	// C’est Fin!
 	
