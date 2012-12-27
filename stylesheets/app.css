@@ -5888,7 +5888,7 @@ table.hide-for-medium {
     width: 100%;
   }
 }
-/* Colors */
+/* Colors & Layout */
 /* line 31, ../sass/app.scss */
 body, .black {
   background: black;
@@ -5897,7 +5897,7 @@ body, .black {
 /* line 35, ../sass/app.scss */
 .lights {
   background: black url(../images/lights.png) repeat-y 50% -470px;
-  padding-bottom: 150px;
+  padding-bottom: 900px;
 }
 
 /* line 40, ../sass/app.scss */
@@ -5905,7 +5905,7 @@ body, .black {
   background: transparent url(../images/fade.png) repeat-x 0 0;
 }
 
-/* Layout */
+/* Layout & Colors */
 /* line 47, ../sass/app.scss */
 .js #nav, .js #content {
   display: none;
@@ -6091,13 +6091,21 @@ p.more a:hover, p.less a:hover, p.slip a:hover, p.slide a:hover {
   text-decoration: none;
 }
 
+/* line 189, ../sass/app.scss */
+.blight {
+  /* 	margin-top: 3em; */
+  position: relative;
+  top: 3em;
+  left: 3em;
+}
+
 /* Product */
-/* line 191, ../sass/app.scss */
+/* line 198, ../sass/app.scss */
 #product {
   background: black;
   position: relative;
 }
-/* line 195, ../sass/app.scss */
+/* line 202, ../sass/app.scss */
 #product #shots img {
   margin: 0 auto;
   border-style: none;
@@ -6111,40 +6119,40 @@ p.more a:hover, p.less a:hover, p.slip a:hover, p.slide a:hover {
   animation: light 10s infinite 1s alternate;
   -webkit-transform: rotateZ(0deg);
 }
-/* line 207, ../sass/app.scss */
+/* line 214, ../sass/app.scss */
 .lt-ie9 #product #shots img {
   background-color: lime;
 }
-/* line 212, ../sass/app.scss */
+/* line 219, ../sass/app.scss */
 #product #down {
   width: 100%;
   position: absolute;
   bottom: 50px;
   z-index: 3;
 }
-/* line 217, ../sass/app.scss */
+/* line 224, ../sass/app.scss */
 #product #down a {
   color: #4a4a4a;
   font-size: 4rem;
   display: block;
   text-align: center;
 }
-/* line 222, ../sass/app.scss */
+/* line 229, ../sass/app.scss */
 #product #down a:hover {
   color: #777777;
   text-decoration: none;
 }
-/* line 226, ../sass/app.scss */
+/* line 233, ../sass/app.scss */
 .lt-ie9 #product #down a {
   font-size: 40px;
 }
-/* line 231, ../sass/app.scss */
+/* line 238, ../sass/app.scss */
 #product .orbit {
   margin-bottom: 0;
 }
 
 /* Nav */
-/* line 238, ../sass/app.scss */
+/* line 245, ../sass/app.scss */
 .nav {
   background: #4a4a4a;
   color: #0d0d0d;
@@ -6154,81 +6162,81 @@ p.more a:hover, p.less a:hover, p.slip a:hover, p.slide a:hover {
   text-align: center;
   z-index: 4;
 }
-/* line 246, ../sass/app.scss */
+/* line 253, ../sass/app.scss */
 .nav ul {
   margin: 15px 0 5px;
   display: inline-block;
 }
-/* line 249, ../sass/app.scss */
+/* line 256, ../sass/app.scss */
 .nav ul li {
   list-style: none;
   float: left;
 }
-/* line 252, ../sass/app.scss */
+/* line 259, ../sass/app.scss */
 .nav ul li a {
   padding: 18px 12px 20px;
   color: #0d0d0d;
 }
-/* line 255, ../sass/app.scss */
+/* line 262, ../sass/app.scss */
 .nav ul li a:hover {
   color: white;
   text-decoration: none;
 }
-/* line 259, ../sass/app.scss */
+/* line 266, ../sass/app.scss */
 .nav ul li a.current {
   color: white;
 }
-/* line 265, ../sass/app.scss */
+/* line 272, ../sass/app.scss */
 .lt-ie9 .nav {
   font-size: 15px;
 }
 
-/* line 270, ../sass/app.scss */
+/* line 277, ../sass/app.scss */
 .nav a.ss-icon {
   padding: 17px 10px 10px;
   font-size: 2rem;
 }
 
-/* line 275, ../sass/app.scss */
+/* line 282, ../sass/app.scss */
 .nav.show-for-small {
   min-height: 54px;
 }
-/* line 277, ../sass/app.scss */
+/* line 284, ../sass/app.scss */
 .nav.show-for-small ul.mobi {
   padding: 0 35px;
   display: none;
   text-align: left;
 }
-/* line 281, ../sass/app.scss */
+/* line 288, ../sass/app.scss */
 .nav.show-for-small ul.mobi li {
   float: none;
 }
-/* line 283, ../sass/app.scss */
+/* line 290, ../sass/app.scss */
 .nav.show-for-small ul.mobi li a {
   padding: 0;
   display: block;
 }
-/* line 289, ../sass/app.scss */
+/* line 296, ../sass/app.scss */
 .nav.show-for-small ul.moreorless {
   float: right;
 }
-/* line 291, ../sass/app.scss */
+/* line 298, ../sass/app.scss */
 .nav.show-for-small ul.moreorless .mobiless {
   display: none;
 }
-/* line 295, ../sass/app.scss */
+/* line 302, ../sass/app.scss */
 .nav.show-for-small ul.moreorless li.mobiless,
 .nav.show-for-small ul.moreorless li.mobimore {
   cursor: pointer;
 }
 
 /* Team */
-/* line 303, ../sass/app.scss */
+/* line 310, ../sass/app.scss */
 .team figure {
   min-height: 350px;
   position: relative;
 }
-/* line 306, ../sass/app.scss */
+/* line 313, ../sass/app.scss */
 .team figure img {
   border: none;
   position: absolute;
@@ -6236,7 +6244,7 @@ p.more a:hover, p.less a:hover, p.slip a:hover, p.slide a:hover {
   left: 0;
 }
 
-/* line 314, ../sass/app.scss */
+/* line 321, ../sass/app.scss */
 .team figure img.off {
   opacity: 1;
   -webkit-transition-property: opacity;
@@ -6252,12 +6260,12 @@ p.more a:hover, p.less a:hover, p.slip a:hover, p.slide a:hover {
   -o-transition-timing-function: linear;
   transition-timing-function: linear;
 }
-/* line 319, ../sass/app.scss */
+/* line 326, ../sass/app.scss */
 .team figure img.off:hover {
   opacity: 0;
 }
 
-/* line 324, ../sass/app.scss */
+/* line 331, ../sass/app.scss */
 .team figure img.on {
   opacity: 0;
   -webkit-transition-property: opacity;
@@ -6273,52 +6281,52 @@ p.more a:hover, p.less a:hover, p.slip a:hover, p.slide a:hover {
   -o-transition-timing-function: linear;
   transition-timing-function: linear;
 }
-/* line 329, ../sass/app.scss */
+/* line 336, ../sass/app.scss */
 .team figure img.on:hover {
   opacity: 1;
 }
 
-/* line 336, ../sass/app.scss */
+/* line 343, ../sass/app.scss */
 .team .row:hover figure img.on {
   opacity: 1;
 }
 
-/* line 342, ../sass/app.scss */
+/* line 349, ../sass/app.scss */
 .touch .team figure img {
   opacity: 1;
 }
 
 /* Contact */
-/* line 348, ../sass/app.scss */
+/* line 355, ../sass/app.scss */
 .contact .row {
   padding-top: 30px;
 }
 
-/* line 352, ../sass/app.scss */
+/* line 359, ../sass/app.scss */
 .contact .social span {
   font-size: 4rem;
 }
-/* line 354, ../sass/app.scss */
+/* line 361, ../sass/app.scss */
 .contact .social span a {
   padding: 15px 5px;
   color: #777777;
   float: right;
 }
-/* line 358, ../sass/app.scss */
+/* line 365, ../sass/app.scss */
 .contact .social span a:hover {
   color: white;
 }
-/* line 362, ../sass/app.scss */
+/* line 369, ../sass/app.scss */
 .lt-ie9 .contact .social span {
   font-size: 40px;
 }
 
 /* Reveal Modal */
-/* line 369, ../sass/app.scss */
+/* line 376, ../sass/app.scss */
 .modal {
   position: relative;
 }
-/* line 371, ../sass/app.scss */
+/* line 378, ../sass/app.scss */
 .modal .expand {
   font-size: 2rem;
   color: #777777;
@@ -6336,21 +6344,21 @@ p.more a:hover, p.less a:hover, p.slip a:hover, p.slide a:hover {
   -o-transition-timing-function: linear;
   transition-timing-function: linear;
 }
-/* line 378, ../sass/app.scss */
+/* line 385, ../sass/app.scss */
 .lt-ie9 .modal .expand {
   font-size: 20px;
 }
-/* line 383, ../sass/app.scss */
+/* line 390, ../sass/app.scss */
 .modal:hover .expand {
   color: white;
   text-decoration: none;
 }
-/* line 388, ../sass/app.scss */
+/* line 395, ../sass/app.scss */
 .modal img {
   border-style: none;
 }
 
-/* line 393, ../sass/app.scss */
+/* line 400, ../sass/app.scss */
 .reveal-modal {
   background: black;
   background: rgba(0, 0, 0, 0.8);
@@ -6362,7 +6370,7 @@ p.more a:hover, p.less a:hover, p.slip a:hover, p.slide a:hover {
   border-radius: 10px;
 }
 
-/* line 400, ../sass/app.scss */
+/* line 407, ../sass/app.scss */
 .reveal-modal .close-reveal-modal {
   color: #777777;
   text-shadow: inherit;
@@ -6370,13 +6378,13 @@ p.more a:hover, p.less a:hover, p.slip a:hover, p.slide a:hover {
   top: 18px;
   right: 11px;
 }
-/* line 406, ../sass/app.scss */
+/* line 413, ../sass/app.scss */
 .reveal-modal .close-reveal-modal:hover {
   color: white;
   text-decoration: none;
 }
 
-/* line 412, ../sass/app.scss */
+/* line 419, ../sass/app.scss */
 .moar img {
   padding-top: 100px;
   display: block;
@@ -6384,235 +6392,235 @@ p.more a:hover, p.less a:hover, p.slip a:hover, p.slide a:hover {
 
 /* Light Animation */
 @-webkit-keyframes light {
-  /* line 420, ../sass/app.scss */
+  /* line 427, ../sass/app.scss */
   0% {
     background: black;
   }
 
-  /* line 423, ../sass/app.scss */
+  /* line 430, ../sass/app.scss */
   12.5% {
     background: lime;
   }
 
-  /* line 426, ../sass/app.scss */
+  /* line 433, ../sass/app.scss */
   25.0% {
     background: yellow;
   }
 
-  /* line 429, ../sass/app.scss */
+  /* line 436, ../sass/app.scss */
   37.5% {
     background: red;
   }
 
-  /* line 432, ../sass/app.scss */
+  /* line 439, ../sass/app.scss */
   50.0% {
     background: magenta;
   }
 
-  /* line 435, ../sass/app.scss */
+  /* line 442, ../sass/app.scss */
   62.5% {
     background: blue;
   }
 
-  /* line 438, ../sass/app.scss */
+  /* line 445, ../sass/app.scss */
   75.0% {
     background: cyan;
   }
 
-  /* line 441, ../sass/app.scss */
+  /* line 448, ../sass/app.scss */
   87.5% {
     background: white;
   }
 
-  /* line 444, ../sass/app.scss */
+  /* line 451, ../sass/app.scss */
   100% {
     background: black;
   }
 }
 
 @-moz-keyframes light {
-  /* line 450, ../sass/app.scss */
+  /* line 457, ../sass/app.scss */
   0% {
     background: black;
   }
 
-  /* line 453, ../sass/app.scss */
+  /* line 460, ../sass/app.scss */
   12.5% {
     background: lime;
   }
 
-  /* line 456, ../sass/app.scss */
+  /* line 463, ../sass/app.scss */
   25.0% {
     background: yellow;
   }
 
-  /* line 459, ../sass/app.scss */
+  /* line 466, ../sass/app.scss */
   37.5% {
     background: red;
   }
 
-  /* line 462, ../sass/app.scss */
+  /* line 469, ../sass/app.scss */
   50.0% {
     background: magenta;
   }
 
-  /* line 465, ../sass/app.scss */
+  /* line 472, ../sass/app.scss */
   62.5% {
     background: blue;
   }
 
-  /* line 468, ../sass/app.scss */
+  /* line 475, ../sass/app.scss */
   75.0% {
     background: cyan;
   }
 
-  /* line 471, ../sass/app.scss */
+  /* line 478, ../sass/app.scss */
   87.5% {
     background: white;
   }
 
-  /* line 474, ../sass/app.scss */
+  /* line 481, ../sass/app.scss */
   100% {
     background: black;
   }
 }
 
 @-ms-keyframes light {
-  /* line 480, ../sass/app.scss */
+  /* line 487, ../sass/app.scss */
   0% {
     background: black;
   }
 
-  /* line 483, ../sass/app.scss */
+  /* line 490, ../sass/app.scss */
   12.5% {
     background: lime;
   }
 
-  /* line 486, ../sass/app.scss */
+  /* line 493, ../sass/app.scss */
   25.0% {
     background: yellow;
   }
 
-  /* line 489, ../sass/app.scss */
+  /* line 496, ../sass/app.scss */
   37.5% {
     background: red;
   }
 
-  /* line 492, ../sass/app.scss */
+  /* line 499, ../sass/app.scss */
   50.0% {
     background: magenta;
   }
 
-  /* line 495, ../sass/app.scss */
+  /* line 502, ../sass/app.scss */
   62.5% {
     background: blue;
   }
 
-  /* line 498, ../sass/app.scss */
+  /* line 505, ../sass/app.scss */
   75.0% {
     background: cyan;
   }
 
-  /* line 501, ../sass/app.scss */
+  /* line 508, ../sass/app.scss */
   87.5% {
     background: white;
   }
 
-  /* line 504, ../sass/app.scss */
+  /* line 511, ../sass/app.scss */
   100% {
     background: black;
   }
 }
 
 @-o-keyframes light {
-  /* line 510, ../sass/app.scss */
+  /* line 517, ../sass/app.scss */
   0% {
     background: black;
   }
 
-  /* line 513, ../sass/app.scss */
+  /* line 520, ../sass/app.scss */
   12.5% {
     background: lime;
   }
 
-  /* line 516, ../sass/app.scss */
+  /* line 523, ../sass/app.scss */
   25.0% {
     background: yellow;
   }
 
-  /* line 519, ../sass/app.scss */
+  /* line 526, ../sass/app.scss */
   37.5% {
     background: red;
   }
 
-  /* line 522, ../sass/app.scss */
+  /* line 529, ../sass/app.scss */
   50.0% {
     background: magenta;
   }
 
-  /* line 525, ../sass/app.scss */
+  /* line 532, ../sass/app.scss */
   62.5% {
     background: blue;
   }
 
-  /* line 528, ../sass/app.scss */
+  /* line 535, ../sass/app.scss */
   75.0% {
     background: cyan;
   }
 
-  /* line 531, ../sass/app.scss */
+  /* line 538, ../sass/app.scss */
   87.5% {
     background: white;
   }
 
-  /* line 534, ../sass/app.scss */
+  /* line 541, ../sass/app.scss */
   100% {
     background: black;
   }
 }
 
 @keyframes light {
-  /* line 540, ../sass/app.scss */
+  /* line 547, ../sass/app.scss */
   0% {
     background: black;
   }
 
-  /* line 543, ../sass/app.scss */
+  /* line 550, ../sass/app.scss */
   12.5% {
     background: lime;
   }
 
-  /* line 546, ../sass/app.scss */
+  /* line 553, ../sass/app.scss */
   25.0% {
     background: yellow;
   }
 
-  /* line 549, ../sass/app.scss */
+  /* line 556, ../sass/app.scss */
   37.5% {
     background: red;
   }
 
-  /* line 552, ../sass/app.scss */
+  /* line 559, ../sass/app.scss */
   50.0% {
     background: magenta;
   }
 
-  /* line 555, ../sass/app.scss */
+  /* line 562, ../sass/app.scss */
   62.5% {
     background: blue;
   }
 
-  /* line 558, ../sass/app.scss */
+  /* line 565, ../sass/app.scss */
   75.0% {
     background: cyan;
   }
 
-  /* line 561, ../sass/app.scss */
+  /* line 568, ../sass/app.scss */
   87.5% {
     background: white;
   }
 
-  /* line 564, ../sass/app.scss */
+  /* line 571, ../sass/app.scss */
   100% {
     background: black;
   }
@@ -6620,22 +6628,22 @@ p.more a:hover, p.less a:hover, p.slip a:hover, p.slide a:hover {
 
 /* RGB Animation */
 @-webkit-keyframes rgb {
-  /* line 572, ../sass/app.scss */
+  /* line 579, ../sass/app.scss */
   0% {
     background: lime;
   }
 
-  /* line 575, ../sass/app.scss */
+  /* line 582, ../sass/app.scss */
   33% {
     background: red;
   }
 
-  /* line 578, ../sass/app.scss */
+  /* line 585, ../sass/app.scss */
   66% {
     background: blue;
   }
 
-  /* line 581, ../sass/app.scss */
+  /* line 588, ../sass/app.scss */
   100% {
     background: lime;
   }
@@ -6643,185 +6651,185 @@ p.more a:hover, p.less a:hover, p.slip a:hover, p.slide a:hover {
 
 /* GYRMBC Animation */
 @-webkit-keyframes gyrmbc {
-  /* line 589, ../sass/app.scss */
+  /* line 596, ../sass/app.scss */
   0% {
     background: lime;
   }
 
-  /* line 592, ../sass/app.scss */
+  /* line 599, ../sass/app.scss */
   16.6666% {
     background: yellow;
   }
 
-  /* line 595, ../sass/app.scss */
+  /* line 602, ../sass/app.scss */
   33.3333% {
     background: red;
   }
 
-  /* line 598, ../sass/app.scss */
+  /* line 605, ../sass/app.scss */
   50.0% {
     background: magenta;
   }
 
-  /* line 601, ../sass/app.scss */
+  /* line 608, ../sass/app.scss */
   66.6666% {
     background: blue;
   }
 
-  /* line 604, ../sass/app.scss */
+  /* line 611, ../sass/app.scss */
   83.3333% {
     background: cyan;
   }
 
-  /* line 607, ../sass/app.scss */
+  /* line 614, ../sass/app.scss */
   100% {
     background: lime;
   }
 }
 
 @-moz-keyframes gyrmbc {
-  /* line 613, ../sass/app.scss */
+  /* line 620, ../sass/app.scss */
   0% {
     background: lime;
   }
 
-  /* line 616, ../sass/app.scss */
+  /* line 623, ../sass/app.scss */
   16.6666% {
     background: yellow;
   }
 
-  /* line 619, ../sass/app.scss */
+  /* line 626, ../sass/app.scss */
   33.3333% {
     background: red;
   }
 
-  /* line 622, ../sass/app.scss */
+  /* line 629, ../sass/app.scss */
   50.0% {
     background: magenta;
   }
 
-  /* line 625, ../sass/app.scss */
+  /* line 632, ../sass/app.scss */
   66.6666% {
     background: blue;
   }
 
-  /* line 628, ../sass/app.scss */
+  /* line 635, ../sass/app.scss */
   83.3333% {
     background: cyan;
   }
 
-  /* line 631, ../sass/app.scss */
+  /* line 638, ../sass/app.scss */
   100% {
     background: lime;
   }
 }
 
 @-ms-keyframes gyrmbc {
-  /* line 637, ../sass/app.scss */
+  /* line 644, ../sass/app.scss */
   0% {
     background: lime;
   }
 
-  /* line 640, ../sass/app.scss */
+  /* line 647, ../sass/app.scss */
   16.6666% {
     background: yellow;
   }
 
-  /* line 643, ../sass/app.scss */
+  /* line 650, ../sass/app.scss */
   33.3333% {
     background: red;
   }
 
-  /* line 646, ../sass/app.scss */
+  /* line 653, ../sass/app.scss */
   50.0% {
     background: magenta;
   }
 
-  /* line 649, ../sass/app.scss */
+  /* line 656, ../sass/app.scss */
   66.6666% {
     background: blue;
   }
 
-  /* line 652, ../sass/app.scss */
+  /* line 659, ../sass/app.scss */
   83.3333% {
     background: cyan;
   }
 
-  /* line 655, ../sass/app.scss */
+  /* line 662, ../sass/app.scss */
   100% {
     background: lime;
   }
 }
 
 @-o-keyframes gyrmbc {
-  /* line 661, ../sass/app.scss */
+  /* line 668, ../sass/app.scss */
   0% {
     background: lime;
   }
 
-  /* line 664, ../sass/app.scss */
+  /* line 671, ../sass/app.scss */
   16.6666% {
     background: yellow;
   }
 
-  /* line 667, ../sass/app.scss */
+  /* line 674, ../sass/app.scss */
   33.3333% {
     background: red;
   }
 
-  /* line 670, ../sass/app.scss */
+  /* line 677, ../sass/app.scss */
   50.0% {
     background: magenta;
   }
 
-  /* line 673, ../sass/app.scss */
+  /* line 680, ../sass/app.scss */
   66.6666% {
     background: blue;
   }
 
-  /* line 676, ../sass/app.scss */
+  /* line 683, ../sass/app.scss */
   83.3333% {
     background: cyan;
   }
 
-  /* line 679, ../sass/app.scss */
+  /* line 686, ../sass/app.scss */
   100% {
     background: lime;
   }
 }
 
 @keyframes gyrmbc {
-  /* line 685, ../sass/app.scss */
+  /* line 692, ../sass/app.scss */
   0% {
     background: lime;
   }
 
-  /* line 688, ../sass/app.scss */
+  /* line 695, ../sass/app.scss */
   16.6666% {
     background: yellow;
   }
 
-  /* line 691, ../sass/app.scss */
+  /* line 698, ../sass/app.scss */
   33.3333% {
     background: red;
   }
 
-  /* line 694, ../sass/app.scss */
+  /* line 701, ../sass/app.scss */
   50.0% {
     background: magenta;
   }
 
-  /* line 697, ../sass/app.scss */
+  /* line 704, ../sass/app.scss */
   66.6666% {
     background: blue;
   }
 
-  /* line 700, ../sass/app.scss */
+  /* line 707, ../sass/app.scss */
   83.3333% {
     background: cyan;
   }
 
-  /* line 703, ../sass/app.scss */
+  /* line 710, ../sass/app.scss */
   100% {
     background: lime;
   }

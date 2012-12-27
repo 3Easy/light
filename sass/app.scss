@@ -12,7 +12,7 @@
 @import url(../webfonts/ss-social.css);
 @import url(../webfonts/ss-standard.css);
 
-/* Colors */
+/* Colors & Layout */
 
 	$green: #00ff00;
 	$red: #ff0000;
@@ -34,7 +34,7 @@ body, .black {
 
 .lights {
 	background: $black url(../images/lights.png) repeat-y 50% -470px;
-	padding-bottom: 150px;
+	padding-bottom: 900px;
 }
 
 .fade {
@@ -42,7 +42,7 @@ body, .black {
 }
 
 
-/* Layout */
+/* Layout & Colors */
 
 .js #nav, .js #content {
 	display: none;
@@ -184,6 +184,13 @@ p.more, p.less, p.slip, p.slide {
 	&:hover {
 		text-decoration: none;
 	}
+}
+
+.blight {
+/* 	margin-top: 3em; */
+	position: relative;
+	top: 3em;
+	left: 3em;
 }
 
 /* Product */
