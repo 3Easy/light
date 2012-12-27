@@ -168,6 +168,24 @@ p.more, p.less, p.slip, p.slide {
 	}
 }
 
+/* Buttons */
+
+.button.light {
+	margin-top: 3em;
+	border: none;
+	@include box-shadow(none);
+	@include border-radius(5px);
+	@include text-shadow (rgba($black, .35) 1px 1px 0);
+	-webkit-animation: gyrmbc 10s infinite;
+	-moz-animation: gyrmbc 10s infinite;
+	-ms-animation: gyrmbc 10s infinite;
+	-o-animation: gyrmbc 10s infinite;
+	animation: gyrmbc 10s infinite;
+	&:hover {
+		text-decoration: none;
+	}
+}
+
 /* Product */
 
 #product {
@@ -180,11 +198,11 @@ p.more, p.less, p.slip, p.slide {
 			background: $black;
 			display: block;
 			line-height: 0;
-			-webkit-animation: lightcloud 10s infinite 1s alternate;
-			-moz-animation: lightcloud 10s infinite 1s alternate;
-			-ms-animation: lightcloud 10s infinite 1s alternate;
-			-o-animation: lightcloud 10s infinite 1s alternate;
-			animation: lightcloud 10s infinite 1s alternate;
+			-webkit-animation: light 10s infinite 1s alternate;
+			-moz-animation: light 10s infinite 1s alternate;
+			-ms-animation: light 10s infinite 1s alternate;
+			-o-animation: light 10s infinite 1s alternate;
+			animation: light 10s infinite 1s alternate;
 			-webkit-transform: rotateZ(0deg);
 			.lt-ie9 & {
 				background-color: $green;
@@ -396,9 +414,9 @@ p.more, p.less, p.slip, p.slide {
 	display: block;
 }
 
-/* LightCloud Animation */
+/* Light Animation */
 
-@-webkit-keyframes lightcloud {
+@-webkit-keyframes light {
 	0% {
 		background: $black;
 	}
@@ -428,7 +446,7 @@ p.more, p.less, p.slip, p.slide {
 	}
 }
 
-@-moz-keyframes lightcloud {
+@-moz-keyframes light {
 	0% {
 		background: $black;
 	}
@@ -458,7 +476,7 @@ p.more, p.less, p.slip, p.slide {
 	}
 }
 
-@-ms-keyframes lightcloud {
+@-ms-keyframes light {
 	0% {
 		background: $black;
 	}
@@ -488,7 +506,7 @@ p.more, p.less, p.slip, p.slide {
 	}
 }
 
-@-o-keyframes lightcloud {
+@-o-keyframes light {
 	0% {
 		background: $black;
 	}
@@ -518,7 +536,7 @@ p.more, p.less, p.slip, p.slide {
 	}
 }
 
-@keyframes lightcloud {
+@keyframes light {
 	0% {
 		background: $black;
 	}
@@ -548,3 +566,141 @@ p.more, p.less, p.slip, p.slide {
 	}
 }
 
+/* RGB Animation */
+
+@-webkit-keyframes rgb {
+	0% {
+		background: $green;
+	}
+	33% {
+		background: $red;
+	}
+	66% {
+		background: $blue;
+	}
+	100% {
+		background: $green;
+	}
+}
+
+/* GYRMBC Animation */
+
+@-webkit-keyframes gyrmbc {
+	0% {
+		background: $green;
+	}
+	16.6666% {
+		background: $yellow;
+	}
+	33.3333% {
+		background: $red;
+	}
+	50.0% {
+		background: $magenta;
+	}
+	66.6666% {
+		background: $blue;
+	}
+	83.3333% {
+		background: $cyan;
+	}
+	100% {
+		background: $green;
+	}
+}
+
+@-moz-keyframes gyrmbc {
+	0% {
+		background: $green;
+	}
+	16.6666% {
+		background: $yellow;
+	}
+	33.3333% {
+		background: $red;
+	}
+	50.0% {
+		background: $magenta;
+	}
+	66.6666% {
+		background: $blue;
+	}
+	83.3333% {
+		background: $cyan;
+	}
+	100% {
+		background: $green;
+	}
+}
+
+@-ms-keyframes gyrmbc {
+	0% {
+		background: $green;
+	}
+	16.6666% {
+		background: $yellow;
+	}
+	33.3333% {
+		background: $red;
+	}
+	50.0% {
+		background: $magenta;
+	}
+	66.6666% {
+		background: $blue;
+	}
+	83.3333% {
+		background: $cyan;
+	}
+	100% {
+		background: $green;
+	}
+}
+
+@-o-keyframes gyrmbc {
+	0% {
+		background: $green;
+	}
+	16.6666% {
+		background: $yellow;
+	}
+	33.3333% {
+		background: $red;
+	}
+	50.0% {
+		background: $magenta;
+	}
+	66.6666% {
+		background: $blue;
+	}
+	83.3333% {
+		background: $cyan;
+	}
+	100% {
+		background: $green;
+	}
+}
+
+@keyframes gyrmbc {
+	0% {
+		background: $green;
+	}
+	16.6666% {
+		background: $yellow;
+	}
+	33.3333% {
+		background: $red;
+	}
+	50.0% {
+		background: $magenta;
+	}
+	66.6666% {
+		background: $blue;
+	}
+	83.3333% {
+		background: $cyan;
+	}
+	100% {
+		background: $green;
+	}
+}
