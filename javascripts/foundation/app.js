@@ -65,6 +65,7 @@
 		directionalNav: false 
 	});
 	
+/*
 	// Fixed Nav
 	var productHeight = $('#product').outerHeight();
 	// var navHeight = $('#product').outerHeight();
@@ -77,16 +78,17 @@
             $('#content').css('padding-top','0');
         }
     });
+*/
     
     // Scroll
     $('#product').localScroll();
 	
 	$('.nav').localScroll({
-		offset: -54
+		offset: -44
 	});
 	
 	$('.less').localScroll({
-		offset: -54
+		offset: -44
 	});
 	
 	// Mobile Nav
